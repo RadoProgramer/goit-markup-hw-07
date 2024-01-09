@@ -23,7 +23,8 @@
 --MODAL-TXT: rgba(46, 47, 66, 0.40);
 }
 
-/*global*/
+    /*global*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -109,7 +110,7 @@ button {
 
 /* mobile styles */
 
-@media screen and (min-width: 320px) {
+
     .container {
         width: 428px;
         padding: 0 15px;
@@ -886,7 +887,7 @@ button {
   .portfolio-link:focus .hide-title {
      transform: translateY(0%);
   }
-   }
+  
    
    /* tablet styles */
 
