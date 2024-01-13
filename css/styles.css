@@ -233,7 +233,8 @@ button {
 }
 .mobile-social-media {
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
+    max-width: 328px;
 }
 .mobile-social-media-list {
     height: 40px;
@@ -454,7 +455,8 @@ button {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     background-color: var(--modal-background-color);
-    width: 408px;
+    max-width: 408px;
+    width: 90%;
     min-height: 584px;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
