@@ -999,7 +999,7 @@ button {
         gap: 24px;
     }
     .subscribe-input {
-        width: 264px;
+        min-width: 264px;
     }
 
 
@@ -1143,12 +1143,16 @@ button {
     }
     .footer-social-title {
         text-align: left;
-        margin-left: 80px;
+        /*margin-left: 80px;*/
     }
     .subscribe-form {
         margin-left: 80px;
         gap: 24px;
     }
+    .footer-social-title-subscribe {
+        margin-left: 80px;
+    }
+
 
     /*boody*/
 
